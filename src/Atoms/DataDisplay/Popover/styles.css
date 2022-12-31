@@ -1,0 +1,24 @@
+ /* We donn't make our custom popover because the usage is the same, we only modify styles for antd */
+.ant-popover-inner{
+  padding: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 6px rgba(83, 70, 152, 0.2) !important;
+  border-radius: 6px !important;
+}
+
+.ant-popover-inner-content{
+  padding: 0 !important;
+}
+
+.ant-popover-title{
+  padding: 0px !important;
+  margin: 0px !important;
+  border-bottom: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-popover-arrow{
+  display: none !important;
+}

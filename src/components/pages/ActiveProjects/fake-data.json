@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Projo",
+    "logo": "<Time fill='white' />",
+    "iteration": "1st iteration",
+    "start": "2022-10-12",
+    "end": "2023-06-09",
+    "members": [
+         {
+            "memberId": 1,
+            "name": "Gevorg",
+            "position": "Full-stack",
+            "billiable": 0
+          },
+          {
+            "memberId": 2,
+            "name": "Artur",
+            "position": "Full-stack",
+            "billiable": 1
+          },
+          {
+            "memberId": 3,
+            "name": "Anahit",
+            "position": "PM",
+            "billiable": 1
+          },
+          {
+            "memberId": 4,
+            "name": "Marina",
+            "position": "Designer",
+            "billiable": 1
+          }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Octave",
+    "logo": "<Time fill='white' />",
+    "iteration": "1st iteration",
+    "start": "2022-10-12",
+    "end": "2023-06-09",
+    "members": [
+         {
+            "memberId": 5,
+            "name": "Gevorg",
+            "position": "Full-stack",
+            "billiable": 0
+          },
+          {
+            "memberId": 6,
+            "name": "Artur",
+            "position": "Full-stack",
+            "billiable": 1
+          },
+          {
+            "memberId": 7,
+            "name": "Anahit",
+            "position": "PM",
+            "billiable": 1
+          },
+          {
+            "memberId": 8,
+            "name": "Marina",
+            "position": "Designer",
+            "billiable": 1
+          }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Chalkboard",
+    "logo": "<Time fill='white' />",
+    "iteration": "1st iteration",
+    "start": "2022-10-12",
+    "end": "2023-06-09",
+    "members": [
+         {
+            "memberId": 9,
+            "name": "Gevorg",
+            "position": "Full-stack",
+            "billiable": 0
+          },
+          {
+            "memberId": 10,
+            "name": "Artur",
+            "position": "Full-stack",
+            "billiable": 1
+          },
+          {
+            "memberId": 11,
+            "name": "Anahit",
+            "position": "PM",
+            "billiable": 1
+          },
+          {
+            "memberId": 12,
+            "name": "Marina",
+            "position": "Designer",
+            "billiable": 1
+          }
+    ]
+  }
+]

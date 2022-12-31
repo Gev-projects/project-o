@@ -1,0 +1,248 @@
+.active-projects-page-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #F8F9FC;
+  overflow-y: auto;
+  .active-projects-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 28px;
+    padding-bottom: 20px;
+    margin-top: 32px;
+    overflow-x: auto;
+  }
+}
+
+// Project card
+.project-card {
+  width: 144px;
+  margin: 0 16px;
+  padding: 8px;
+  &:hover {
+    background-color: #EBEEF5;
+    .three-dots-btn-container {
+      visibility: visible;
+    }
+  }
+
+  .project-card-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+  }
+  
+  .project-card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EBEEF5;
+    border-radius: 6px 6px 0px 0px;
+    .header-bill {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  }
+
+  .project-name {
+    display: inline-block;
+    margin-left: 12px;
+    width: 89px;
+    overflow-wrap: break-word;
+  }
+}
+
+.three-dots-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  visibility: hidden;
+}
+
+.three-dots-btn {
+  width: 36px;
+  position: absolute;
+  left: 97px;
+  z-index: 2;
+  cursor: pointer;
+  background: linear-gradient(2062deg, #edeef1 56.25%, rgba(248, 249, 252, 0) 290%);
+}
+
+.ant-dropdown-menu {
+  width: 133px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(83, 70, 152, 0.2);
+  border-radius: 6px;
+  .ant-dropdown-menu-item {
+    width: 100%;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #30353B !important;
+    text-align: center;
+  }
+}
+
+.member-card-container {
+  width: 100%;
+  background-color: #FFFFFF;
+  .member-card {
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+    border: none !important;
+    border-radius: 0%;
+    padding: 10px;
+    .non-bill {
+      width: 50px;
+      height: 14px;
+      font-size: 10px;
+      font-weight: 400;
+      background: #FFEFB6;
+      border-radius: 15px;
+      padding: 1px 6px;
+    }
+  }
+}
+
+.add-member-btn {
+  background-color: #FFFFFF;
+  padding-left: 5px;
+}
+
+//modal
+.modal-title {
+  margin-bottom: 20px !important;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  height: 390px;
+  background-color: #FFFFFF;
+}
+
+.modal-footer {
+  width: 100%;
+  height: max-content;
+  background-color: red;
+}
+
+//form 
+.add-members-section {
+  width: 302px;
+  padding-left: 20px;
+}
+
+.project-form {
+  width: 100%;
+  max-width: 302px;
+  height: max-content;
+  border-right: 1px solid #EBEEF5;
+  padding: 20px 20px 0 0 !important;
+  .add-img-block {
+    display: flex;
+    align-items: center;
+    .delete-color {
+      color: #FF3D00 !important;
+    }
+    img {
+      margin-right: 12px;
+    }
+  }
+}
+
+.modal-input-form-section {
+  margin-top: 20px;
+  width: 100%;
+  .start-date{
+    width: 130px;
+    display: inline-block;
+  }
+  .end-date{
+    width: 130px;
+    display: inline-block;
+    margin-left: 16px;
+  }
+}
+
+.ant-upload-list-item-info {
+  display: none;
+}
+
+.ant-form-item {
+  margin-bottom: 20px !important;
+
+  &:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.ant-form-item-label {
+  padding-bottom: 0 !important;
+}
+
+label {
+  font-size: 12px !important;
+  font-weight: 400;
+  color: #30353B !important;
+}
+
+//ant-picker
+.ant-picker-input>input:hover {
+  border-color: #C3C9D9 !important;
+}
+
+.ant-picker:hover {
+  border-color: #C3C9D9 !important;
+  box-shadow: none !important;
+
+  &.ant-picker-focused {
+    border-color: #30353B !important;
+  }
+}
+
+.ant-picker-focused {
+  border-color: #30353B !important;
+  box-shadow: none !important;
+}
+
+//ant-drawer
+.ant-drawer-header {
+  border: none;
+  padding: 25px 25px 0 25px !important;
+}
+
+.ant-drawer-header-title {
+  justify-content: end;
+}
+
+.ant-drawer-body {
+  padding: 0 20px !important
+}
+
+.ant-drawer-mask {
+  background: inherit !important;
+}
+
+.drawer-content {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 12px;
+  }
+}
+
+.drawer-project-title {
+  line-height: 15px;
+}
+
+.drawer-textarea {
+  height: 200px !important;
+  margin-top: 20px !important;
+  overflow: hidden;
+  resize: none;
+}
